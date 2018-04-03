@@ -38,3 +38,13 @@ footer p {
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
+.btn-cart {
+  color: #635d07;
+  background-color: #ffe357db;
+  border-color: #e2cf6c;
+}
+.btn-cart:hover {
+  color: #0c0707;
+  background-color: #f3b808;
+  border-color: #d8a510;
+}
