@@ -1,0 +1,15 @@
+.bg-red {
+    background-color: #fd6060!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 223, 12);
+
+}
+.bg-dark {
+    background-color: #075e7f!important;
+}
