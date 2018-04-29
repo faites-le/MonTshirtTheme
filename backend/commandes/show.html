@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../img/favicon.png">
+
+    <title>MonTShirt Backend</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../../css/backend.css" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-dark fixed-top bg-red flex-md-nowrap p-0 shadow">
+    <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">MonTShirt</a>
+    <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+            <a class="nav-link" href="#">Quitter</a>
+        </li>
+    </ul>
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+            <div class="sidebar-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="file"></span>
+                            Produits
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="shopping-cart"></span>
+                            Catégories et Tags
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="users"></span>
+                            Commandes
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h2">Commande N° 45</h1>
+                <div class="btn-toolbar mb-2 mb-md-0">
+                    <div class="btn-group mr-2">
+                        <button class="btn btn-sm btn-outline-secondary">Lister les commandes</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="table-responsive">
+                <div class="jumbotron">
+                    <h1 class="display-6">Nom & Prénom</h1>
+                    <p class="lead">Adresse de livraison</p>
+                    <p>Adresse 1 <br> Adresse 2 <br> Code Postal - Ville - Pays</p>
+                    <p>Numéro de transaction Stripe: </p>
+                </div>
+                <table class="table table-bordered">
+                    <thead>
+                    <tr><th>#</th>
+                        <th>Produit</th>
+                        <th>Quantité</th>
+                        <th>P.U TTC</th>
+                        <th class="text-right">Total</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <strong>TShirt les Goonies L </strong> <br>
+                        </td>
+                        <td>2</td>
+                        <td>25.00 € TTC</td>
+                        <td class="text-right"> 50.00 € TTC</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td>Sous-Total HT:</td>
+                        <td class="text-right">50.00 €</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td>TVA(20%)</td>
+                        <td class="text-right">41,67 € TTC</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td>TOTAL</td>
+                        <td class="text-right">50.00 € TTC </td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </main>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="../../js/popper.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/holder.min.js"></script>
+
+</body>
+</html>
